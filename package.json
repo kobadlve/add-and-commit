@@ -1,6 +1,6 @@
 {
   "name": "add-and-commit",
-  "version": "7.5.0",
+  "version": "9.0.0",
   "private": true,
   "description": "Add & commit files from a path directly from GitHub Actions",
   "main": "lib/index.js",
@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/EndBug/add-and-commit#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.8.2",
     "actions-toolkit": "github:EndBug/actions-toolkit#core-actions",
     "js-yaml": "^4.1.0",
-    "simple-git": "^2.27.0",
+    "simple-git": "^3.7.1",
     "string-argv": "^0.3.1"
   },
   "devDependencies": {
@@ -42,15 +42,15 @@
     "@types/node": "^12.12.54",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "@vercel/ncc": "^0.33.0",
+    "@vercel/ncc": "^0.34.0",
     "all-contributors-cli": "^6.20.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "prettier": "^2.5.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.3",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3",
     "yamljs": "^0.3.0"
   }
 }
